@@ -78,14 +78,13 @@ v<!DOCTYPE html>
 
 
 
-
 <script>
 // this will give the impression data 
 function executeImpressionApi() {
 
-var referralCode = "V5nat4bI";
+var referralCode = "EL95uyx3";
 
-var impressionApiUrl = 'https://dev.sharkdom.com/api/referral?referralCode=' + referralCode + '&type=impression';
+var impressionApiUrl = 'https://sharkdom.com/api/referral?referralCode=' + referralCode + '&type=impression';
 
 
 
@@ -123,7 +122,7 @@ function submitForm(event) {
 
 event.preventDefault();
 
-var referralCode = "V5nat4bI"; 
+var referralCode = "EL95uyx3"; 
 
 var name = encodeURIComponent(document.getElementById('name').value);
 
@@ -136,7 +135,7 @@ var phone = encodeURIComponent(document.getElementById('phone').value);
 
 var leadApiUrl =
 
-    'https://dev.sharkdom.com/api/referral?referralCode=' + referralCode + '&name=' + name + '&email=' + email + '&mobile=' + phone + '&type=lead';
+    'https://sharkdom.com/api/referral?referralCode=' + referralCode + '&name=' + name + '&email=' + email + '&mobile=' + phone + '&type=lead';
 
 var xhr = new XMLHttpRequest();
 
@@ -176,7 +175,6 @@ executeImpressionApi();
 
 </script>
                 
-
 
 
 
