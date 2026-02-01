@@ -81,7 +81,7 @@
 // this will give the impression data 
 function executeImpressionApi() {
 
-var referralCode = "s5yknSUj";
+var referralCode = "lO9Uh43u";
 
 var impressionApiUrl = 'https://dev.sharkdom.com/api/referral?referralCode=' + referralCode + '&type=impression';
 
@@ -121,7 +121,7 @@ function submitForm(event) {
 
 event.preventDefault();
 
-var referralCode = "s5yknSUj"; 
+var referralCode = "lO9Uh43u"; 
 
 var name = encodeURIComponent(document.getElementById('name').value);
 
@@ -133,8 +133,7 @@ var phone = encodeURIComponent(document.getElementById('phone').value);
 // this will give the lead data 
 
 var leadApiUrl =
-
-    'https://sharkdom.com/api/referral?referralCode=' + referralCode + '&name=' + name + '&email=' + email + '&mobile=' + phone + '&type=lead';
+    'https://dev.sharkdom.com/api/referral?referralCode=' + referralCode + '&name=' + name + '&email=' + email + '&mobile=' + phone + '&type=lead';
 
 var xhr = new XMLHttpRequest();
 
@@ -173,6 +172,7 @@ executeImpressionApi();
 };
 
 </script>
+                
 
 
                 
